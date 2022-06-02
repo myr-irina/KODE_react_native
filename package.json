@@ -1,0 +1,76 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "rnstl && expo start",
+    "android": "rnstl && expo start --android",
+    "ios": "rnstl && expo start --ios",
+    "web": "rnstl && expo start --web",
+    "eject": "expo eject",
+    "storybook": "rnstl && start-storybook",
+    "build-storybook": "rnstl && build-storybook",
+    "update-icons": "ts-node-transpile-only --project node.tsconfig.json scripts/transform-svg/transform-svg.ts"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/native": "^6.0.4",
+    "@react-navigation/native-stack": "^6.2.5",
+    "@types/is-function": "^1.0.1",
+    "area": "^0.0.2",
+    "context": "^1.1.4",
+    "expo": "^43.0.4",
+    "expo-app-loading": "~1.2.1",
+    "expo-font": "~10.0.3",
+    "expo-status-bar": "~1.1.0",
+    "native": "^0.3.3",
+    "react": "^17.0.2",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.8.0",
+    "react-native-svg": "12.1.1",
+    "react-native-web": "0.17.1",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4",
+    "remove-node-modules": "^1.7.6",
+    "safe": "^0.4.7",
+    "storybook": "^6.4.9",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@storybook/addon-actions": "^5.3",
+    "@storybook/addon-knobs": "^5.3",
+    "@storybook/addon-links": "^5.3",
+    "@storybook/addon-ondevice-actions": "^5.3.23",
+    "@storybook/addon-ondevice-knobs": "^5.3.25",
+    "@storybook/react-native": "^5.3.25",
+    "@storybook/react-native-server": "^5.3.23",
+    "@svgr/core": "^5.5.0",
+    "@types/prettier": "^2.4.1",
+    "@types/react": "~17.0.21",
+    "@types/react-native": "~0.64.12",
+    "@types/styled-components": "^5.1.15",
+    "@types/styled-components-react-native": "^5.1.1",
+    "babel-loader": "^8.2.2",
+    "prettier": "^2.4.1",
+    "react-native-storybook-loader": "^2.0.4",
+    "ts-node": "^10.4.0",
+    "typescript": "~4.3.5"
+  },
+  "config": {
+    "react-native-storybook-loader": {
+      "searchDir": [
+        "./src"
+      ],
+      "pattern": "**/*.story.tsx",
+      "outputFile": "./storybook/storyLoader.js"
+    }
+  },
+  "private": true,
+  "name": "react-native-styled-components",
+  "version": "1.0.0",
+  "repository": "https://github.com/KODE-Frontend-Interships/lesson-3-stylization-myr-irina.git",
+  "author": "Irina <myr-irina2@yandex.ru>",
+  "license": "MIT"
+}
